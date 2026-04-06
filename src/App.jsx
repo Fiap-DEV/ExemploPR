@@ -26,6 +26,25 @@ function App() {
         imagem={image}
         botaoTexto="Aluno"
       />
+      <Card 
+        titulo="David Gama" 
+        descricao="Mehno Ki Then Odiu"
+        imagem={image}
+        botaoTexto="Mehno"
+    />
+    <Card
+        titulo="Alexandre Furtado" 
+        descricao="Fã do Renato money moicano"
+        imagem={image}
+        botaoTexto="Aluno"
+      />
+      <Card
+        titulo="Marianne Mukai" 
+        descricao="Acompanhante de código"
+        imagem={image}
+        botaoTexto="Estudante"
+ 
+      />
     </div>
   )
 }
