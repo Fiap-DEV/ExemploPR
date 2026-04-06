@@ -24,7 +24,7 @@ function App() {
         titulo="Marianne Mukai" 
         descricao="Acompanhante de código"
         imagem={image}
-        botaoTexto="Aluna"
+        botaoTexto="Estudante"
       />
     </div>
   )
