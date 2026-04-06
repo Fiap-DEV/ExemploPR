@@ -1,6 +1,7 @@
 import Card from './components/Card'
 import image from './assets/imagem.gif'
 import styles from './css/card.module.css'
+import capivara from './assets/capivara.gif'
 
 
 function App() {
@@ -19,6 +20,12 @@ function App() {
         descricao="Garota de Programa"
         imagem={image}
         botaoTexto="Aluna"
+      />
+      <Card 
+        titulo="João Gonzales" 
+        descricao="Mairiporanense"
+        imagem={capivara}
+        botaoTexto="Aluno 00"
       />
     </div>
   )
