@@ -21,6 +21,10 @@ function App() {
         botaoTexto="Aluna"
       />
       <Card 
+        titulo="David Gama" 
+        descricao="Mehno Ki Then Odiu"
+        imagem={image}
+        botaoTexto="Mehno"
  Feat/CardAle
         titulo="Alexandre Furtado" 
         descricao="Fã do Renato money moicano"
