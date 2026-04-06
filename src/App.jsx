@@ -1,6 +1,8 @@
 import Card from './components/Card'
 import image from './assets/Imagem.gif'
 import styles from './css/card.module.css'
+import memeclash from './assets/meme-clash.gif'
+
 import poco from './assets/giphy.gif'
 
 function App() {
@@ -21,6 +23,10 @@ function App() {
         botaoTexto="Aluna"
       />
       <Card 
+        titulo="Gabriel Ardito" 
+        descricao="Rei do Clash"
+        imagem={memeclash}
+        botaoTexto="Codo Fofo"
         titulo="Vinicius Kozonoe" 
         descricao="Dev beta"
         imagem={poco}
