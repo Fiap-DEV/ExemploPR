@@ -14,6 +14,12 @@ function App() {
         imagem={image}
         botaoTexto="Professor"
       />
+      <Card 
+        titulo="Giovanna Dias" 
+        descricao="Garota de Programa"
+        imagem={image}
+        botaoTexto="Aluna"
+      />
     </div>
   )
 }
