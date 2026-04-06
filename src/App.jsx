@@ -4,21 +4,27 @@ import styles from './css/card.module.css'
 
 
 function App() {
-  
+
 
   return (
-   <div className={styles.container}>
-      <Card 
-        titulo="Wellington Cidade" 
+    <div className={styles.container}>
+      <Card
+        titulo="Wellington Cidade"
         descricao="Programador Raiz."
         imagem={image}
         botaoTexto="Professor"
       />
-      <Card 
-        titulo="Giovanna Dias" 
+      <Card
+        titulo="Giovanna Dias"
         descricao="Garota de Programa"
         imagem={image}
         botaoTexto="Aluna"
+      />
+      <Card
+        titulo="João Victor Melo"
+        descricao="garoto de programa"
+        imagem={image}
+        botaoTexto="Aluno"
       />
       <Card 
         titulo="David Gama" 
