@@ -1,7 +1,7 @@
 import Card from './components/Card'
-import image from './assets/imagem.gif'
+import image from './assets/Imagem.gif'
 import styles from './css/card.module.css'
-
+import poco from './assets/giphy.gif'
 
 function App() {
 
@@ -19,6 +19,12 @@ function App() {
         descricao="Garota de Programa"
         imagem={image}
         botaoTexto="Aluna"
+      />
+      <Card 
+        titulo="Vinicius Kozonoe" 
+        descricao="Dev beta"
+        imagem={poco}
+        botaoTexto="Aluno"
       />
       <Card
         titulo="João Victor Melo"
