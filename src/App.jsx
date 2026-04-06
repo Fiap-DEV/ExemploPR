@@ -21,17 +21,10 @@ function App() {
         botaoTexto="Aluna"
       />
       <Card 
- Feat/CardAle
-        titulo="Alexandre Furtado" 
-        descricao="Fã do Renato money moicano"
-        imagem={image}
-        botaoTexto="Aluno"
-
         titulo="Marianne Mukai" 
         descricao="Acompanhante de código"
         imagem={image}
         botaoTexto="Estudante"
- main
       />
     </div>
   )
