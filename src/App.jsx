@@ -20,6 +20,12 @@ function App() {
         imagem={image}
         botaoTexto="Aluna"
       />
+      <Card 
+        titulo="Gustavo Hiruo" 
+        descricao="Henatin , R$10,00/h"
+        imagem={image}
+        botaoTexto="Aluno"
+      />
     </div>
   )
 }
