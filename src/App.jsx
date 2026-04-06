@@ -20,6 +20,12 @@ function App() {
         imagem={image}
         botaoTexto="Aluna"
       />
+      <Card 
+        titulo="David Gama" 
+        descricao="Mehno Ki Then Odiu"
+        imagem={image}
+        botaoTexto="Mehno"
+      />
     </div>
   )
 }
